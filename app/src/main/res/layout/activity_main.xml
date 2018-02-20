@@ -8,13 +8,18 @@
 
     <Button
         android:id="@+id/scanbtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="191dp"
+        android:layout_height="41dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Scan UPC Barcode"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="Scan Barcode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/result"
@@ -72,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="-7dp" />
 
 
 </android.support.constraint.ConstraintLayout>
