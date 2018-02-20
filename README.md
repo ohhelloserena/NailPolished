@@ -19,8 +19,8 @@ It's common to Google swatch photos when buying nail polish in stores. This app 
 
 ## TODO
 
-* Find a UPC API that has UP-C and a higher request limit
-* Create an API so scanned products can be added to a wishlist or the uers's collection (to keep track of user's nail polish inventory)
+* Find a UPC API that has a higher request limit
+* Create an API so scanned products can be added to the user's wishlist or collection (to keep track of user's nail polish inventory)
 
 ## Screenshot
 
